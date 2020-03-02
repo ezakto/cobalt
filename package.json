@@ -1,0 +1,25 @@
+{
+  "name": "cobalt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cobalt.js",
+  "bin": {
+    "cobalt": "./cobalt.js"
+  },
+  "directories": {
+    "example": "example",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "jison src/parser.jison -o src/parser.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codemirror": "^5.51.0",
+    "escodegen": "^1.14.1"
+  },
+  "devDependencies": {
+    "jison": "^0.4.18"
+  }
+}
